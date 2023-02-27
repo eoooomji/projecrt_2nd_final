@@ -1,0 +1,169 @@
+/* 구글 폰트 적용 */
+/* https://fonts.google.com/specimen/IBM+Plex+Sans+KR */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap');
+
+.user_contents_wrap {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+/* 컨텐츠 공통 */
+.user_contents {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 40px 0 40px 0;
+  width: 100%;
+  height: 330px;
+  padding: 10px 20px 10px 20px;
+}
+
+/* 프로필 */
+.user_profile_menu {
+  text-align: right;
+  text-decoration: none;
+}
+
+.user_profile {
+  background-color: rgb(249, 202, 209);
+  width: 100%;
+  height: 100px;
+  color: black;
+  border-radius: 20px;
+}
+
+.user_profile_menu_icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.user_profile_icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.user_name {
+  height: 50px;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 65px;
+}
+
+.user_name span {
+  font-weight: bolder;
+}
+
+/* 컨텐츠 리스트 */
+
+/* 영화 선호 태그 영역 */
+.user_tag {
+  background-color: rgb(228, 210, 212);
+}
+
+/* 선호 취향 소개 */
+.best_one {
+  color: green;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.best_one span {
+  font-weight: bolder;
+}
+
+.user_actor_list {
+  overflow: scroll;
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+}
+
+/* 스크롤바 숨기기 */
+.user_actor_list::-webkit-scrollbar {
+  display: none;
+}
+
+.list_intro {
+  background-color: rgb(234, 232, 232);
+  margin: 0 15px 20px 15px;
+  float: left;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* 배우, 감독 프로필 사진 */
+.list_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  border: 1px solid gray;
+}
+
+.person_data {
+  width: 250px;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.person_data span:hover {
+  color: rgb(87, 87, 87);
+}
+
+.actor_name {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+.movie_name {
+  color: black;
+}
+
+/* 국가, 장르 */
+/* top3 자식요소 중 몇 개만 선택해서 css 먹이는 거.....로 수정해야됨 */
+
+.user_genre_list {
+  width: 100%;
+  height: 100%;
+}
+
+.list_top3 {
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  float: left;
+  text-align: center;
+  width: 285px;
+  height: 70px;
+}
+
+.list_top3_name {
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.top_list {
+  width: 100%;
+  color: grey;
+  font-size: 18px;
+}
+
+.top_list_name {
+  float: left;
+  width: 660px;
+  height: 30px;
+  text-align: left;
+}
+
+.top_list_count {
+  float: right;
+  width: 200px;
+  height: 30px;
+  text-align: right;
+}

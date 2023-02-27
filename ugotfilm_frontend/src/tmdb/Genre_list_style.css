@@ -1,0 +1,96 @@
+/* 구글 폰트 적용 */
+/* https://fonts.google.com/specimen/IBM+Plex+Sans+KR */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap');
+
+/* =========================================================== */
+
+/* Tmdb_genre.js CSS */
+
+.genre_btn_wrap {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  margin-top: 15px;
+  z-index: 99;
+}
+
+.genre_option_btn {
+  margin: 5px;
+  background-color: darkgrey;
+  border: none;
+  float: right;
+}
+
+.genre_option_btn:hover {
+  background-color: grey;
+}
+
+.category_wrap {
+  background-color: rgb(43, 43, 43);
+}
+
+.category_btn {
+  border: none;
+  border-radius: 20px;
+  margin: 3px;
+  background-color: white;
+  color: black;
+}
+
+.category_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* =================================================================== */
+
+/* Tmdb_genre_pop.js, Tmdb_genre_vote.js CSS */
+
+.genre_wrap {
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.genre_tile {
+  margin: 25px;
+  padding-top: 100px;
+  float: left;
+}
+
+.genre_movie_image {
+  width: 150px;
+  height: 225px;
+  margin: 0 auto;
+}
+.genre_movie_image img {
+  width: 100%;
+  height: 225px;
+  margin: 0 auto;
+}
+
+.genre_movie_title {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.genre_movie_title:hover {
+  color: rgb(63, 63, 63);
+}
+
+.genre_movie_text {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+  color: gray;
+}
+
+.star_rating {
+  color: gold;
+}
